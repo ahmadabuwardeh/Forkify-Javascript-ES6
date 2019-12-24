@@ -6,7 +6,6 @@ export const toggleLikeBtn = isLiked => {
   document
     .querySelector(".recipe__love use")
     .setAttribute("href", `img/icons.svg#${iconString}`);
-  
 };
 
 export const toggleLikeMenu = numLikes => {
